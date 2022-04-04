@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- Timeout -->
+    <Timeout>5</Timeout>
+
+    <!-- general -->
+
+    <!-- authorization -->
+    <UserName>admin</UserName>
+    <Password>admin</Password>
+
+    <!-- Web -->
+
+    <BrowserName>chrome</BrowserName>
+    <url>http://parabank.parasoft.com/parabank/</url>
+
+    <ImageRepo>C:\\Automation\\FinalProject\\ImageRepository\\</ImageRepo>
+
+    <!-- DDT -->
+    <DDTFile>./DDTFiles/amounts.csv</DDTFile>
+
+    <!-->Mobile<-->
+    <UDID>21011114a877c24a</UDID>
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!--API-->
+    <url-api>http://localhost:3000/</url-api>
+
+    <!--Electron -->
+    <electron-driver-path>./Drivers/electrondriver.exe</electron-driver-path>
+    <electron-app-path>C:/Automation/TodoList-Setup.exe</electron-app-path>
+
+    <!-- Desktop -->
+    <calculator-app>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</calculator-app>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+    <!-- DataBase -->
+    <db-url>jdbc:mysql://remotemysql.com:3306/bXp2hI6nbX</db-url>
+    <db-username>bXp2hI6nbX</db-username>
+    <db-pass>AoionVDWVB</db-pass>
+</Environment>
